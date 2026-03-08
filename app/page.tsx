@@ -11,7 +11,7 @@ export default function Page() {
         </p>
       </div>
       <div className="mb-8">
-        <p className="mb-4">welcome to my (new) portfolio! thanks for being here.</p>
+        <p className="mb-4">i'm in my final year of my dual degree computer science program at nyu. welcome to my (new) portfolio!</p>
       </div>
     </section>
   )
