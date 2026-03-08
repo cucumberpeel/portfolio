@@ -22,7 +22,7 @@ export default function Footer() {
       <ul className="font-sm flex mt-2 flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline"
             rel="noopener noreferrer"
             target="_blank"
             href="https://linkedin.com/in/amorygao"
@@ -33,7 +33,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/cucumberpeel"
@@ -44,7 +44,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline"
             rel="noopener noreferrer"
             target="_blank"
             href="https://beliapp.co/app/amory"
@@ -55,7 +55,7 @@ export default function Footer() {
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} by cucumberpeel
+        © {new Date().getFullYear()} by <a className="hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline" href="https://github.com/cucumberpeel" target="_blank" rel="noopener noreferrer">cucumberpeel</a>
       </p>
     </footer>
   )
