@@ -79,7 +79,7 @@ export default async function Blog({ params }) {
             url: `${baseUrl}/projects/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: 'My Portfolio',
+              name: 'Amory Gao',
             },
           }),
         }}
@@ -87,6 +87,9 @@ export default async function Blog({ params }) {
       <h1 className="title font-semibold text-2xl tracking-tighter">
         {post.metadata.title}
       </h1>
+      <h2 className="text-lg text-neutral-600 dark:text-neutral-400 mt-2">
+        {post.metadata.summary}
+      </h2>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(post.metadata.publishedAt)}
