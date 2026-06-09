@@ -1,0 +1,39 @@
+---
+title: 'Hatch: Recipes by Ingredient'
+publishedAt: '2025-05-17'
+summary: 'I revamp an old course project to document my favorite recipes.'
+---
+
+In undergrad, I took CSCI-UA 467: Applied Internet Technology to finish my Web Development minor. For my final project, I was asked to create a "small web application that uses Express and MongoDB." I came up with Hatch, a recipe blog from scratch.
+
+[wireframes]
+
+There were a couple issues with Hatch, the main one being that it didn't actually use MongoDB. It read in all the recipes and ingredients from JSON files. I also couldn't get image files to show up properly, probably because I never set up a proper database query in the first place? I also made a wacky search functionality, but hey, it was my first time trying.
+
+[before photo]
+
+## fix: MongoDB Connection
+
+```ts
+function greet(name: string): string {
+  return `Hello, ${name}!`
+}
+
+// This will throw an error at compile time, preventing potential runtime issues.
+let message: string = greet(123)
+```
+
+## fix: Handlebars to React
+
+how handlebars was essentially doing what react can more easily do but like in a less flexible way
+
+## fix: Bootstrap to Tailwind
+
+## feat: Recipe-Ingredient Relationship
+
+If a user clicked on an ingredient, I wanted them to see all the recipes that use that ingredient. I also thought it'd be fun to write some bilingual introductions for Chinese ingredients.
+
+[photo/gif]
+
+## Conclusion
+
