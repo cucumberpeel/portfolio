@@ -1,4 +1,4 @@
-import StravaModal from 'app/components/strava'
+import StravaWidget from 'app/components/strava'
 
 export default function Page() {
   return (
@@ -14,7 +14,7 @@ export default function Page() {
       <div className="mb-8">
         <p className="mb-4">i'm in my final year of my dual degree computer science program at nyu. welcome to my (new) portfolio!</p>
       </div>
-      <StravaModal />
+      <StravaWidget />
     </section>
   )
 }

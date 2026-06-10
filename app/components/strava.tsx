@@ -1,7 +1,7 @@
 import { default as strava, Strava } from 'strava-v3';
 import Link from './link';
 
-export default function StravaModal() {
+export default function StravaWidget() {
     strava.config({
     "access_token": process.env.STRAVA_ACCESS_TOKEN,
     "client_id": process.env.STRAVA_CLIENT_ID,
