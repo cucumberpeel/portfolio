@@ -3,7 +3,7 @@ import Link from "./link";
 export default function Footer() {
   return (
     <footer className="mt-16 mb-16">
-      <h2 className="text-xl tracking-tighter">better on</h2>
+      <h2 className="text-xl tracking-tighter">here is my</h2>
       <ul className="font-sm flex mt-2 flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <Link href="https://github.com/cucumberpeel" displayName="github" />
@@ -13,6 +13,9 @@ export default function Footer() {
         </li>
         <li>
           <Link href="https://beliapp.co/app/amory" displayName="beli" />
+        </li>
+        <li>
+          <Link href="https://amorygao.myportfolio.com/photography" displayName="photography portfolio" />
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
