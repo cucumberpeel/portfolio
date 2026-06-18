@@ -19,10 +19,6 @@ export default function Page() {
             <li>minors: Web Programming, Integrated Digital Media</li>
           </ul>
         </div>
-        <div className="mb-8">
-            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">projects</h1>
-            <BlogPosts />
-        </div>
       </section>
       )
 }
